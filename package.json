@@ -1,0 +1,26 @@
+{
+  "name": "api-data-privacy-contract-framework",
+  "version": "1.0.0",
+  "description": "API Data Privacy Contract Testing Framework",
+  "main": "index.js",
+  "scripts": {
+    "test:contract": "playwright test tests/contract",
+    "test:security": "playwright test tests/security"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "pom",
+    "automation",
+    "testdino",
+    "antigravity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  }
+}

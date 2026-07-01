@@ -1,0 +1,173 @@
+# ==============================================================================
+# Dependency Directories
+# ==============================================================================
+# Node.js
+node_modules/
+jspm_packages/
+web_modules/
+.npm/
+.eslintcache
+.stylelintcache
+package-lock.json.log
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+.installed.cfg
+.pip-badge/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+venv.bak/
+env.bak/
+
+# Java / JVM
+.gradle/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.lokalise/
+
+# ==============================================================================
+# Build & Distribution Artifacts
+# ==============================================================================
+dist/
+build/
+bin/
+obj/
+out/
+.next/
+.nuxt/
+.cache/
+
+# ==============================================================================
+# Testing, Coverage & Reports
+# ==============================================================================
+# Playwright
+playwright-report/
+test-results/
+playwright/.local-browsers/
+
+# Coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# ==============================================================================
+# Environment & Secret Configurations
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+.env.staging.local
+.env.*.local
+*.pem
+*.key
+*.pub
+secrets.json
+credentials.json
+*.p16
+*.pfx
+*.p12
+jwt-keys/
+.config/gcloud/
+
+# ==============================================================================
+# IDE, Editor & System Metadata
+# ==============================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# JetBrains
+.idea/
+*.iws
+out/
+
+# Other IDEs & Editors
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.bak
+*.tmp
+*.temp
+.project
+.classpath
+.settings/
+
+# OS-specific metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+[Dd]ownloads/
+
+# ==============================================================================
+# AI Assistants, Coding Agents & Copilots
+# ==============================================================================
+# Antigravity IDE
+.antigravity/
+
+# Claude Code
+.claude/
+.claude-code/
+claude.json
+
+# OpenCode Agent
+.opencode/
+opencode.json
+
+# Cursor
+.cursor/
+
+# GitHub Copilot / others
+.copilot/
+.chat/
+.ai/
+.agent/
+.agents/
+.cody/
+cody.json
+
