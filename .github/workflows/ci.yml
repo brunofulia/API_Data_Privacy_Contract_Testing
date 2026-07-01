@@ -10,6 +10,11 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      BOOKER_API_URL: https://restful-booker.herokuapp.com
+      MOCK_API_URL: https://6a3a783f917c7b14c74d8f21.mockapi.io/api/v1
+      API_USERNAME: admin
+      API_PASSWORD: password123
     
     steps:
     - name: Checkout repository
@@ -23,9 +28,6 @@ jobs:
 
     - name: Install dependencies
       run: npm ci
-
-    - name: Install Playwright Network Drivers
-      run: npx playwright install --with-deps
 
     - name: Run Contract & Security Suite
       run: npx playwright test
